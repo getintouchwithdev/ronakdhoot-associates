@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ronak Dhoot & Associates | Chartered Accountants</title>
+  <meta name="description" content="Empowering individuals & businesses with expert CA, taxation, and business advisory in Palghar, Maharashtra.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body { font-family: 'Lato', Arial, sans-serif; background: #f8fafc; }
+    .hero { background: #174ea6; color: #fff; padding: 64px 0 32px 0; text-align: center; }
+    .cta-btn { background: #0093ff; color: #fff; font-weight: bold; border: none; padding: 12px 36px; border-radius: 4px; transition: background 0.2s; }
+    .cta-btn:hover { background: #006bb3; }
+    .section-title { margin-top: 40px; color: #174ea6; text-align: center; font-weight: bold; }
+    .service-list li, .industry-list li { margin-bottom: 10px; }
+    .testimonials { background: #e3edfa; padding: 32px 0; border-radius: 8px; }
+    .about-paragraph { font-size: 1.13rem; }
+    .icon-bullet { color: #005b9e; font-weight: bold;}
+    .contact-info p { margin: 0; font-size: 1.09rem; }
+    .lead-magnet input { width: 60%; display: inline-block;}
+    .footer { background: #174ea6; color: #fff; padding: 24px 0; margin-top: 48px; text-align: center;}
+    .nav-link, .navbar-brand { color: #fff !important; }
+    .nav-link:hover, .navbar-brand:hover { color: #dedede !important; }
+    .policy-links a { color: #ffe156; margin-right: 12px; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #174ea6;">
+    <a class="navbar-brand font-weight-bold" href="#">Ronak Dhoot & Associates</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon" style="background:#fff;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#vision">Vision & Mission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Empowering Your Financial Success</h1>
+    <p class="lead">Premier Chartered Accountant Firm in Palghar, Maharashtra</p>
+    <a href="#contact" class="cta-btn mt-3">Book a Free Consultation</a>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="container mt-5">
+    <h2 class="section-title">About Ronak Dhoot & Associates</h2>
+    <p class="about-paragraph mt-3">
+      Ronak Dhoot and Associates is a premier Chartered Accountant firm in Palghar, Maharashtra, dedicated to empowering individuals and businesses with comprehensive financial and compliance solutions. Our client-centric approach ensures personalized, forward-thinking solutions. Leveraging modern technology for enhanced efficiency and accuracy, we foster long-term relationships built on clear communication and trust.<br/><br/>
+      As your trusted financial and business consultant in Palghar, we help you navigate India's dynamic regulatory environment, ensuring adherence and fostering sustainable growth. Partner with us for professional financial guidance and robust business support.
+    </p>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section id="vision" class="container mt-5">
+    <h2 class="section-title">Vision & Mission</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="mt-3">Our Vision</h5>
+        <p>To be a trusted partner in the journey of financial transformation and success.</p>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mt-3">Our Mission</h5>
+        <p>To build long-lasting relationships by providing actionable financial solutions that empower businesses to unlock new opportunities for growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="container mt-5">
+    <h2 class="section-title">Our Specializations</h2>
+    <ul class="list-unstyled mt-3">
+      <li><span class="icon-bullet">&#9632;</span> <b>Income Tax Services:</b> Expert ITR filing, strategic tax planning, and diligent TDS compliance.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>Audit Services:</b> Meticulous financial, statutory, and internal audits to ensure compliance and integrity.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>Company Incorporations:</b> Seamless company registration (Private Limited, LLP, OPC) and ongoing corporate compliance.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>GST Services:</b> GST registration, efficient return filing (GSTR-1, 3B, 9), and proactive compliance advisory.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>Certifications & Registrations:</b> DSC, PAN, TAN, IEC, MSME, FSSAI, Trademark, Copyright, and Patent.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>Accounting & Bookkeeping:</b> Efficient bookkeeping, payroll management, and accurate financial reporting.</li>
+      <li><span class="icon-bullet">&#9632;</span> <b>Business Consulting:</b> Strategic business development, financial management, and tailored SME advisory.</li>
+    </ul>
+    <a href="#contact" class="btn btn-primary mt-3">Request a Callback</a>
+  </section>
+
+  <!-- Testimonials / Success Stories -->
+  <section class="container testimonials mt-5">
+    <h2 class="section-title">Trusted by Clients</h2>
+    <blockquote>
+      “Ronak Dhoot & Associates guided our company through GST and audit compliance, saving both time and money. Highly recommended for SME owners in Maharashtra.”
+      <footer class="blockquote-footer">Corporate Client, Manufacturing Sector</footer>
+    </blockquote>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container mt-5">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="mb-3">
+      <input type="text" class="form-control" placeholder="Name" required>
+      <input type="email" class="form-control mt-2" placeholder="Email" required>
+      <input type="tel" class="form-control mt-2" placeholder="Phone" required>
+      <textarea class="form-control mt-2" placeholder="Your Query"></textarea>
+      <button type="submit" class="btn btn-success mt-2">Request Callback</button>
+    </form>
+    <div class="contact-info mt-4 mb-3">
+      <p><b>Email:</b> caronakd@gmail.com</p>
+      <p><b>Phone:</b> +91 7058256866</p>
+      <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/company/ronak-dhoot-and-associates/" target="_blank">Ronak Dhoot & Associates</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>
+      <span>© 2025 Ronak Dhoot & Associates | Chartered Accountants</span><br>
+      <span class="policy-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Disclaimer</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- JS (Bootstrap + jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
